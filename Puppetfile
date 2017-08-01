@@ -15,4 +15,10 @@ mod "puppetlabs/java",	      '1.6.0'
 
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+#  :branch => 'docs_experiment
+
+
+mod 'ntp',
+  :git => 'https://github.com/tercissimo/puppet-mmu-ntp',
+  :ref => 'master'
+
